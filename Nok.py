@@ -1,4 +1,4 @@
-while(true){
+while(true):
         print("1. Phone book")
         print("2. Messages")
         print("3. Chat")
@@ -19,9 +19,9 @@ while(true){
             main = input("Enter main menu: ")
             if(mainMenu == 0): break
 
-           match(mainMenu) {
+           match(mainMenu) :
                 case 1 -> {
-                    while(true){
+                    while(true):
                         print("Phone book:")
                         print("1 Search")
                         print("2 Service Nos.")
@@ -37,7 +37,7 @@ while(true){
                         print("Enter: ")
                         
                         if(phonebookoptions == 0): break
-                        match(phonebookoptions) {
+                        match(phonebookoptions) :
                             case 1 -> print("Search:")
                             case 2 -> print("Service Nos.")
                             case 3 -> print("Add name")
@@ -47,7 +47,7 @@ while(true){
                             case 7 -> print("Assign tone")
                             case 8 -> print("Send b card")
                             case 9 -> {
-                                while(true){
+                                while(true):
                                     print("1 Memory in use")
                                     print("2 Type of view")
                                     print("3 Memory status")
@@ -70,7 +70,7 @@ while(true){
                     }
                 }
                 case 2 -> {
-                    while(true){
+                    while(true):
                         print("Messages:")
                         print("1 Write messages")
                         print("2 Inbox")
@@ -94,7 +94,7 @@ while(true){
                             case 5 -> print("Templates")
                             case 6 -> print("Smileys")
                             case 7 -> {
-                                while(true){
+                                while(true):
                                     print("1 Set 1")
                                     print("2 Common")
                                     print("0 Exit")
@@ -121,7 +121,7 @@ while(true){
                 }
                 case 3 -> print("Chat")
                 case 4 -> {
-                    while(true){
+                    while(true):
                         print("Call register:")
                         print("1 Missed calls")
                         print("2 Received calls")
@@ -141,7 +141,7 @@ while(true){
                             case 3 -> print("Dialled numbers")
                             case 4 -> print("Erase recent call lists")
                             case 5 -> {
-                                while(true){
+                                while(true):
                                     print("1 Last call duration")
                                     print("2 All calls duration")
                                     print("3 Received calls duration")
@@ -162,7 +162,7 @@ while(true){
                                 }
                             }
                             case 6 -> {
-                                while(true){
+                                while(true):
                                      6 -> { 
                                     print("1 Last call cost")
                                     print("2 All calls’ cost")
@@ -180,7 +180,7 @@ while(true){
                                 }
                             }
                             case 7 -> {
-                                while(true){
+                                while(true):
                                    print("1 Call cost settings")
                                    print("2 Show costs in")
                                    print("0 Exit")
@@ -200,7 +200,7 @@ while(true){
                     }
                 }       
             case 5 -> {
-                while(true){
+                while(true):
                         print("Tones:")
                         print("1 Ringing tone")
                         print("2 Ringing volume")
@@ -230,7 +230,7 @@ while(true){
                     }
                 
             case 6 -> {
-                while(true){
+                while(true):
                         print("Settings:");
                         print("1 Call settings");
                         print("2 Phone settings");
@@ -242,7 +242,7 @@ while(true){
                         if(settings == 0): break
                         match(settings) :
                             case 1 -> {
-                                while(true){
+                                while(true)
                                     print("1 Automatic redial")
                                     print("2 Speed dialling")
                                     print("3 Call waiting options")
