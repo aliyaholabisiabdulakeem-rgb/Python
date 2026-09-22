@@ -214,4 +214,7 @@ elif main == "14":
 elif main == "15":
     print("SIM Services")
 
+else:
+    print("invalid")
+
 
