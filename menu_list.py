@@ -1,4 +1,3 @@
-
 print("1. Phone book")
 print("2. Messages")
 print("3. Chat")
