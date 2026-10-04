@@ -1,0 +1,8 @@
+def productOf(*args):
+    product = 1
+    for number in args:
+        product *= number
+    return product
+
+
+print(productOf(2,4,5,1))

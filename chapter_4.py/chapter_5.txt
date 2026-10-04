@@ -1,0 +1,5 @@
+The if and if else statement has no effect on the code because it has a fixed range(exclusive upper range).
+It causes stack overflow which crashes the program or throw a recursion error.
+The return statement is missing which by default returns null.
+It returns the sum of the square of the argument resulting to 55.
+
