@@ -1,0 +1,16 @@
+1. There are too many values to unpack i.e 2 variables holding 3 arguments while it expected 2 arguments.
+1b. The list of index to find is out of range. The range is between 0-4.
+1c. name is a string and cannot involve a list.
+1d. indexes cannot involve double or float, thereby causing type error.
+1e. This is tuple and tuples are immutable i.e cannot change once it is created -> Type error.
+1f. A string cannot be added to a tuple, only tuple can be added tuple.
+1g. A string cannot be added to tuple only string can be added to string. -> Type error
+1h. x is alreday deleted and doesn't exist again, then it can't be used.-> Type error.
+1i. The value 10 is not in the list. -> value error.
+1j. list.extend() takes one arguments but one given -> Type error.
+1k. The value 10 is not in the list -> value error.
+1l. Trying to pop fom an empty list, while there is nothing there -> Index error.
+
+2. The code returns FALSE when the list of number given is not alreday sorted, and returns TRUE otherwise.
+
+3. 
